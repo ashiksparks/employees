@@ -14,12 +14,14 @@ This project represents the basic operations for employee management.
 
 ![image](https://github.com/user-attachments/assets/7e0854b0-7229-41f0-aeb9-fde14f5bf280)
 
--------------- Open Swagger UI ------------------------<br>
+-------------- Open Swagger UI ------------------------
+<br>
 http://localhost:8082/api/swagger-ui/index.html
 
-We proceed to launch requests from Swagger UI<br>
+We proceed to launch requests from Swagger UI
+<br>
 Note: You can do your tests with Thunder Client or Postman
-
+<br>
 ![image](https://github.com/user-attachments/assets/8c117e04-e1f4-4143-9c7e-90df410ba272)
 
 
