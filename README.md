@@ -1,14 +1,14 @@
-This project represents the basic operations for employee management.
+This project represents the basic operations for <strong>employee management<strong>.<br>
 
--------------- Project structure ------------------------
+-------------- <strong>Project structure<strong> ------------------------
 
 ![image](https://github.com/user-attachments/assets/113658a8-adb0-4422-be4a-a640e20812f4)
 
--------------- Spring boot Runnner ------------------------
+-------------- <strong>Spring boot Runnner</strong> ------------------------
 
 ![image](https://github.com/user-attachments/assets/d4e47d6e-893a-4104-8482-a45ba4c2a8f3)
 
--------------- MySQL Data Base ------------------------
+-------------- <strong>MySQL Data Base</strong> ------------------------
 
 ![image](https://github.com/user-attachments/assets/1663c695-695b-4123-a25f-163ffb7959a0)
 
@@ -20,7 +20,7 @@ http://localhost:8082/api/swagger-ui/index.html
 
 We proceed to launch requests from Swagger UI
 <br>
-Note: You can do your tests with Thunder Client or Postman<br>
+Note: You can do your tests with <strong>Thunder Client</strong> or <strong>Postman</strong><br>
 <br>
 ![image](https://github.com/user-attachments/assets/8c117e04-e1f4-4143-9c7e-90df410ba272)
 
