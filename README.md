@@ -68,3 +68,7 @@ The employee was eliminated
 
 ![image](https://github.com/user-attachments/assets/fd3ce8fd-91a7-434d-bbc0-c6a8cbcd19b9)
 
+-------------- <strong>Coverage JUnit Test</strong> ------------------------
+
+![image](https://github.com/user-attachments/assets/1fda18e3-131d-4eba-8fb5-66d1f8be756d)
+
