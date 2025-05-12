@@ -49,4 +49,9 @@ Note: You can do your tests with <strong>Thunder Client</strong> or <strong>Post
 Employee Not Found test.<br>
 ![image](https://github.com/user-attachments/assets/d268270c-c7b2-41a1-b318-8bf20bb3b7a6)
 
+The employee was updated.<br>
+![image](https://github.com/user-attachments/assets/06e8301d-18f2-44ed-92e8-7e7b11a71c77)
+
+![image](https://github.com/user-attachments/assets/0583c80a-55ae-4573-bd12-4c62402c29a0)
+
 
