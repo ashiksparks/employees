@@ -76,3 +76,7 @@ The employee was eliminated
 
 ![image](https://github.com/user-attachments/assets/1fda18e3-131d-4eba-8fb5-66d1f8be756d)
 
+
+:rocket:
+:sunglasses:
+:fire:
