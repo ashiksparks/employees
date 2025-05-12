@@ -34,11 +34,19 @@ Note: You can do your tests with <strong>Thunder Client</strong> or <strong>Post
 
 ![image](https://github.com/user-attachments/assets/6e59e57c-6fac-479b-bbd1-323498e21f6b)
 
--------------- <strong>Request GET</strong> ------------------------<br>
+-------------- <strong>Request GET</strong> ------------------------
+
 ![image](https://github.com/user-attachments/assets/d5d5b0c3-4b10-4704-bfda-5c3ba96640d8)
 
 ![image](https://github.com/user-attachments/assets/97cddf20-e951-4639-8d3f-c181d489c6a0)
 
 ![image](https://github.com/user-attachments/assets/9e621d83-7112-4e0f-ba08-c956be805cd9)
+
+-------------- <strong>Request PUT</strong> ------------------------
+
+![image](https://github.com/user-attachments/assets/2a2a0f84-fde3-4d0f-a37d-5d86f9694bfd)
+
+Employee Not Found test.<br>
+![image](https://github.com/user-attachments/assets/d268270c-c7b2-41a1-b318-8bf20bb3b7a6)
 
 
