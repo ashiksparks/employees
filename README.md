@@ -22,6 +22,10 @@ We proceed to launch requests from Swagger UI
 <br>
 Note: You can do your tests with <strong>Thunder Client</strong> or <strong>Postman</strong><br>
 <br>
+
+<strong>Curls templates json:</strong><br>
+https://github.com/firecode16/employees/tree/master/src/main/resources/templates
+
 ![image](https://github.com/user-attachments/assets/8c117e04-e1f4-4143-9c7e-90df410ba272)
 
 -------------- <strong>Request POST</strong> ------------------------
