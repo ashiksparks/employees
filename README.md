@@ -62,3 +62,9 @@ The employee was Not found
 
 ![image](https://github.com/user-attachments/assets/d7eeb94f-bf6f-442e-9d08-8d738f9ae6e1)
 
+The employee was eliminated
+
+![image](https://github.com/user-attachments/assets/727063a3-f9b6-4160-a511-ec6ef33e8d5c)
+
+![image](https://github.com/user-attachments/assets/fd3ce8fd-91a7-434d-bbc0-c6a8cbcd19b9)
+
