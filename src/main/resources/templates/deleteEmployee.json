@@ -1,0 +1,8 @@
+[
+   {
+	  "curl": "JSON",
+	  "type": "DELETE",
+	  "apiRest": "http://localhost:8082/api/employees/deleteEmployee/11",
+	  "contentType": "application/json"
+   }
+]

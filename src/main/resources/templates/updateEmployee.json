@@ -1,0 +1,15 @@
+[
+   {
+	  "curl": "JSON",
+	  "type": "PUT",
+	  "apiRest": "http://localhost:8082/api/employees/updateEmployee/6",
+	  "contentType": "application/json"
+   },
+   
+   
+   {
+  	  "secondName": "",
+      "age": 36,
+      "jobTitle": "Sr. Java full stack"
+   }
+]

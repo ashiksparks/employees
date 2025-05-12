@@ -1,0 +1,50 @@
+[
+   {
+	  "curl": "JSON",
+	  "type": "POST",
+	  "apiRest": "http://localhost:8082/api/employees/createEmployees",
+	  "contentType": "application/json"
+   },
+   
+   
+   {
+      "firstName":"Nayeli",
+      "secondName":"",
+      "paternalSurname":"Beltran",
+      "maternalSurname":"Dante",
+      "age":20,
+      "sex":"F",
+      "dateBirth":"21-07-1960",
+      "jobTitle":"Sr.Designer"
+   },
+   {
+      "firstName":"Ana",
+      "secondName":"Karen",
+      "paternalSurname":"Garza",
+      "maternalSurname":"Ramirez",
+      "age":18,
+      "sex":"F",
+      "dateBirth":"17-03-1988",
+      "jobTitle":"Jr.QA"
+   },
+   {
+      "firstName":"Carlos",
+      "secondName":"",
+      "paternalSurname":"Luna",
+      "maternalSurname":"Banderas",
+      "age":30,
+      "sex":"M",
+      "dateBirth":"30-08-1989",
+      "jobTitle":"Middle.Java Full Stack"
+   },
+   {
+      "firstName":"Roberto",
+      "secondName":"Jr",
+      "paternalSurname":"Banderas",
+      "maternalSurname":"Morales",
+      "age":35,
+      "sex":"M",
+      "dateBirth":"10-06-1988",
+      "jobTitle":"Sr. CTO"
+   }
+]

@@ -1,0 +1,6 @@
+{
+	"curl": "JSON",
+	"type": "GET",
+	"apiRest": "http://localhost:8082/api/employees/getAllEmployees",
+	"contentType": "application/json"
+}
