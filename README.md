@@ -54,4 +54,11 @@ The employee was updated.<br>
 
 ![image](https://github.com/user-attachments/assets/0583c80a-55ae-4573-bd12-4c62402c29a0)
 
+-------------- <strong>Request DELETE</strong> ------------------------
+
+![image](https://github.com/user-attachments/assets/1bafb964-e940-46aa-bbd0-7effdd772bb8)
+
+The employee was Not found
+
+![image](https://github.com/user-attachments/assets/d7eeb94f-bf6f-442e-9d08-8d738f9ae6e1)
 
