@@ -24,4 +24,12 @@ Note: You can do your tests with <strong>Thunder Client</strong> or <strong>Post
 <br>
 ![image](https://github.com/user-attachments/assets/8c117e04-e1f4-4143-9c7e-90df410ba272)
 
+-------------- <strong>Request POST</strong> ------------------------
+
+![image](https://github.com/user-attachments/assets/30f5146a-9783-4f81-9ce6-2d4b68bd8a4a)
+
+![image](https://github.com/user-attachments/assets/9d288a7d-4dd1-4f51-aa46-b0127393d260)
+
+![image](https://github.com/user-attachments/assets/2111f665-487a-4bb5-9ce9-13676d02f81c)
+
 
