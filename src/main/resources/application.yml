@@ -1,0 +1,36 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /api
+
+spring:
+  application:
+    name: employees
+  serverHost: localhost
+  serverPort: 3306
+  dataBase: DB_LOCAL
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://${spring.serverHost}:${spring.serverPort}/${spring.dataBase}?createDatabaseIfNotExist=true&useSSL=false
+    username: server
+    password: admin123
+    hikari:
+      connection-timeout: 60000
+      maximum-pool-size: 5
+      connection-test-query: select 1;
+  jpa:
+    open-in-view: true
+    generate-ddl: true
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate.format_sql: false
+
+logging:
+  level:
+    root: INFO
+    com.siscon.employees: DEBUG
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
